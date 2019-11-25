@@ -12,12 +12,12 @@ export default function Main() {
         Repositórios
       </h1>
 
-      <form onSubmit={() => {}}>
+      <Form onSubmit={() => {}}>
         <input type="text" placeholder="Adicionar Repositório" />
-        <SubmitButton disabled>
+        <SubmitButton>
           <FaPlus color="#FFF" size={14} />
         </SubmitButton>
-      </form>
+      </Form>
     </Container>
   );
 }
